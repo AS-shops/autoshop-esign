@@ -25,7 +25,11 @@ Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထာ
 
 ၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)
 • ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို တိုက်ရိုက်ကြည့်ရှုခြင်း၊ ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။
-• ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် အရောင်းမှတ်တမ်း (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။
+
+
+• ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် 
+ (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။
+• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
 • ဒေတာဖျက်သိမ်းမှု: (၁) နှစ်ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အနေဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။
 
 ၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)
@@ -54,7 +58,7 @@ const generatePDF = async (formData, signature, contractId) => {
       width: 800px;
       padding: 40px;
       font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif;
-      font-size: 11px;
+      font-size: 14px;
       line-height: 1.8;
       background: white;
       color: black;
@@ -64,19 +68,19 @@ const generatePDF = async (formData, signature, contractId) => {
     tempDiv.innerHTML = `
       <div style="text-align: center; margin-bottom: 30px; font-family: Arial, sans-serif;">
         <img src="${logoImage}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #2216a8; margin-bottom: 15px;" />
-        <h1 style="font-size: 24px; margin: 0; font-weight: bold; color: #2216a8;">OTAS Tech Solutions Co., Ltd.</h1>
-        <h2 style="font-size: 18px; margin: 10px 0; font-weight: normal; color: #444;">Auto Shop Software Service Agreement</h2>
-        <p style="font-size: 14px; color: #666; margin: 5px 0;">Contract ID: ${contractId} | Date: ${new Date().toLocaleDateString("my-MM")}</p>
+        <h1 style="font-size: 28px; margin: 0; font-weight: bold; color: #2216a8;">OTAS Tech Solutions Co., Ltd.</h1>
+        <h2 style="font-size: 22px; margin: 10px 0; font-weight: normal; color: #444;">Auto Shop Software Service Agreement</h2>
+        <p style="font-size: 16px; color: #666; margin: 5px 0;">Contract ID: ${contractId} | Date: ${new Date().toLocaleDateString("my-MM")}</p>
       </div>
       
       <div style="margin-bottom: 30px;">
-        <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px; font-family: Arial, sans-serif;">SERVICE AGREEMENT</h3>
-        <div style="font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif; white-space: pre-wrap; font-size: 11px; line-height: 1.8;">${CONTRACT_TEXT}</div>
+        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px; font-family: Arial, sans-serif;">SERVICE AGREEMENT</h3>
+        <div style="font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif; white-space: pre-wrap; font-size: 14px; line-height: 1.8;">${CONTRACT_TEXT}</div>
       </div>
       
-      <div style="margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">SIGNATORY INFORMATION</h3>
-        <div style="font-size: 12px; line-height: 1.8;">
+      <div style="margin-bottom: 100px; font-family: Arial, sans-serif;">
+        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">SIGNATORY INFORMATION</h3>
+        <div style="font-size: 15px; line-height: 1.8;">
           <p><strong>Full Name:</strong> ${formData.fullName}</p>
           <p><strong>Phone Number:</strong> ${formData.phoneNumber}</p>
           <p><strong>Position:</strong> ${formData.position}</p>
@@ -85,20 +89,22 @@ const generatePDF = async (formData, signature, contractId) => {
           <p><strong>Start Date:</strong> ${formData.startDate}</p>
         </div>
       </div>
+
+
       
       <div style="margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">DIGITAL SIGNATURE:</h3>
+        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">DIGITAL SIGNATURE:</h3>
         ${signature ? `<img src="${signature}" style="max-width: 200px; height: auto; border: 1px solid #ddd; margin-top: 10px;" />` : "<p>[Signature on file]</p>"}
       </div>
       
       <div style="margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 16px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">AGREEMENT STATUS: ACCEPTED</h3>
-        <p style="font-size: 12px;">Terms and Conditions have been accepted by the signatory.</p>
+        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">AGREEMENT STATUS: ACCEPTED</h3>
+        <p style="font-size: 15px;">Terms and Conditions have been accepted by the signatory.</p>
       </div>
       
       <div style="border-top: 2px solid #2216a8; padding-top: 20px; margin-top: 30px; font-family: Arial, sans-serif;">
-        <p style="font-size: 10px; color: #666; margin: 5px 0;">OTAS Tech Solutions Co., Ltd.</p>
-        <p style="font-size: 10px; color: #666; margin: 5px 0;">Contact: info@otastech.com</p>
+        <p style="font-size: 12px; color: #666; margin: 5px 0;">AutoShop Myanmar Co., Ltd.</p>
+        <p style="font-size: 12px; color: #666; margin: 5px 0;">Contact: info@autoshopmm.com</p>
       </div>
     `;
 
