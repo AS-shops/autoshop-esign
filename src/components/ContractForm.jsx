@@ -149,6 +149,7 @@ const generatePDF = async (formData, signature, contractId) => {
 };
 
 export default function ContractForm() {
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [formData, setFormData] = useState({
     fullName: "",
     phoneNumber: "",
@@ -215,7 +216,7 @@ export default function ContractForm() {
     setSubmitStatus(null);
 
     try {
-      const response = await fetch("http://localhost:5000/api/contracts", {
+      const response = await fetch(`${API_BASE_URL}/contracts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
