@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+/* Myanmar font support */
+.myanmar-text {
+  font-family: "Noto Sans Myanmar", "Pyidaungsu", "Myanmar3", sans-serif;
+}
+
+/* Ensure proper rendering for Myanmar text in PDF generation */
+.pdf-content {
+  font-family: "Noto Sans Myanmar", "Pyidaungsu", "Myanmar3", sans-serif;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
