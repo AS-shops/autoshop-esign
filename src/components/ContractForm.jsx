@@ -6,46 +6,88 @@ import Modal from "./Modal";
 import "./ContractForm.css";
 import logoImage from "../assets/autoshop.jpg";
 
-const CONTRACT_TEXT = `Auto Shop Software Service Agreement
-(ဝန်ဆောင်မှု သဘောတူညီချက် စာချုပ်)
+const CONTRACT_TEXT = `<strong>Auto Shop Software Service Agreement
+(ဝန်ဆောင်မှု သဘောတူညီချက် စာချုပ်)</strong>
 
 ဤဝန်ဆောင်မှုသဘောတူညီချက်စာချုပ်ကို OTAS Tech Solutions Co., Ltd. (နောင်တွင် "ကုမ္ပဏီ" ဟု ခေါ်ဆိုမည်) နှင့် ဝန်ဆောင်မှုရယူသူ ဝယ်ယူသူ (နောင်တွင် "အသုံးပြုသူ" ဟု ခေါ်ဆိုမည်) တို့အကြား အောက်ပါအချက်အလက်များအတိုင်း သဘောတူညီကြပါသည်။
 
-၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)
+<strong>၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)</strong>
 Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။ ဤ Software တွင် AI Assistant Manager ပါဝင်ပြီး အသုံးပြုသူသည် အရောင်းအစီရင်ခံစာ (Sales Reports) များကို Text Message ပေးပို့၍ အလွယ်တကူ မေးမြန်းစစ်ဆေးနိုင်မည် ဖြစ်ပါသည်။
 
-၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)
+<strong>၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)</strong>
 အသုံးပြုသူသည် Software ကို အသုံးပြုရာတွင် မိမိပိုင်ဆိုင်သော ဆိုင်ခွဲအရေအတွက် (Number of Shops) နှင့် အသုံးပြုသူအကောင့် (User Accounts) အရေအတွက် ကန့်သတ်ချက်မရှိဘဲ လွတ်လပ်စွာ အသုံးပြုနိုင်ခွင့်ရှိသည်။
 
-၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)
+<strong>၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)</strong>
 အသုံးပြုသူသည် အောက်ဖော်ပြပါ ဝန်ဆောင်မှုနှုန်းထားများအတိုင်း ပေးချေရန် သဘောတူညီပါသည်။
 • စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၃၀၀,၀၀၀ ကျပ် (300,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။
 • လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၈၀,၀၀၀ ကျပ် (80,000 MMK) - လစဉ်ပေးချေရန်။
-• အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၃၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။
+• <b>အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၃၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။</b>
 • လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။
 
-၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)
+<strong>၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)</strong>
 • ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို တိုက်ရိုက်ကြည့်ရှုခြင်း၊ ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။
-
-
 • ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် 
  (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။
 • ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
 • ဒေတာဖျက်သိမ်းမှု: (၁) နှစ်ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အနေဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။
 
-၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)
+<strong>၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)</strong>
 • စနစ်ပိတ်သိမ်းခြင်း: လစဉ်ကြေး (Subscription Fee) ပေးဆောင်ရန် ပျက်ကွက်ပါက သတ်မှတ်ရက် ကျော်လွန်သည်နှင့် စနစ်မှ အလိုအလျောက် အသုံးပြုခွင့်ကို ခေတ္တပိတ်သိမ်း (Freeze) မည်ဖြစ်သည်။
 • အကောင့်ဖျက်သိမ်းခြင်း: အကောင့်ပိတ်သိမ်းပြီးနောက် (၃၀) ရက်အတွင်း ဆက်လက် ပေးဆောင်ခြင်း မရှိပါက အသုံးပြုသူ၏ အကောင့်နှင့်တကွ ဒေတာများအားလုံးကို စနစ်မှ အပြီးတိုင် ဖျက်သိမ်း (Permanently Delete) သွားမည်ဖြစ်သည်။
 
-၆။ တာဝန်ယူမှုနှင့် ပံ့ပိုးမှု (Liability & Support)
+<strong>၆။ တာဝန်ယူမှုနှင့် ပံ့ပိုးမှု (Liability & Support)</strong>
 • ဝန်ဆောင်မှုရရှိနိုင်မှု: ကုမ္ပဏီအနေဖြင့် ၁၀၀% Server Uptime ရရှိရန် အစွမ်းကုန် ကြိုးပမ်းသွားမည် ဖြစ်သည်။ သို့ရာတွင် မထိန်းချုပ်နိုင်သော အခြေအနေများ (Force Majeure) ကြောင့် ဖြစ်ပေါ်လာနိုင်သော ဝန်ဆောင်မှု အနှောင့်အယှက်များအတွက် အာမခံချက် ပေးနိုင်မည်မဟုတ်ပါ။
 • ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
 • AI တာဝန်ယူမှု: AI Assistant မှ ထွက်ပေါ်လာသော အစီရင်ခံစာများအပေါ် အခြေခံ၍ အသုံးပြုသူ၏ လုပ်ငန်းဆိုင်ရာ ဆုံးဖြတ်ချက်များ ချမှတ်ရာတွင် ဖြစ်ပေါ်လာနိုင်သော အကျိုးအမြတ် သို့မဟုတ် ဆုံးရှုံးမှုများအတွက် ကုမ္ပဏီမှ တာဝန်ယူမည် မဟုတ်ပါ။
 
-၇။ မူဝါဒများ ပြင်ဆင်ခြင်း (Policy Updates)
+<strong>၇။ မူဝါဒများ ပြင်ဆင်ခြင်း (Policy Updates)</strong>
 ကုမ္ပဏီအနေဖြင့် အနာဂတ်တွင် ဖြစ်ပေါ်လာနိုင်သော အခြေအနေများအပေါ် မူတည်၍ ဤမူဝါဒများကို လိုအပ်သလို ပြင်ဆင်မွမ်းမံမှုများ ပြုလုပ်နိုင်ပါသည်။ သို့ရာတွင် မည်သည့်ပြင်ဆင်မှုကိုမဆို အသုံးပြုသူများထံ ကြိုတင်အကြောင်းကြားပေးသွားမည် ဖြစ်သည်။
 
-Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)
+<strong>Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)</strong>
+အောက်ပါအချက်အလက်များကို ဖြည့်စွက်ခြင်းဖြင့် ဤစာချုပ်ပါ စည်းကမ်းချက်များကို ဖတ်ရှုနားလည်ပြီး သဘောတူညီကြောင်း အတည်ပြုပါသည်။`;
+
+const PDF_TEXT = `<strong>Auto Shop Software Service Agreement
+(ဝန်ဆောင်မှု သဘောတူညီချက် စာချုပ်)</strong>
+
+ဤဝန်ဆောင်မှုသဘောတူညီချက်စာချုပ်ကို OTAS Tech Solutions Co., Ltd. (နောင်တွင် "ကုမ္ပဏီ" ဟု ခေါ်ဆိုမည်) နှင့် ဝန်ဆောင်မှုရယူသူ ဝယ်ယူသူ (နောင်တွင် "အသုံးပြုသူ" ဟု ခေါ်ဆိုမည်) တို့အကြား အောက်ပါအချက်အလက်များအတိုင်း သဘောတူညီကြပါသည်။
+
+<strong>၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)</strong>
+Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။ ဤ Software တွင် AI Assistant Manager ပါဝင်ပြီး အသုံးပြုသူသည် အရောင်းအစီရင်ခံစာ (Sales Reports) များကို Text Message ပေးပို့၍ အလွယ်တကူ မေးမြန်းစစ်ဆေးနိုင်မည် ဖြစ်ပါသည်။
+
+<strong>၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)</strong>
+အသုံးပြုသူသည် Software ကို အသုံးပြုရာတွင် မိမိပိုင်ဆိုင်သော ဆိုင်ခွဲအရေအတွက် (Number of Shops) နှင့် အသုံးပြုသူအကောင့် (User Accounts) အရေအတွက် ကန့်သတ်ချက်မရှိဘဲ လွတ်လပ်စွာ အသုံးပြုနိုင်ခွင့်ရှိသည်။
+
+<strong>၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)</strong>
+အသုံးပြုသူသည် အောက်ဖော်ပြပါ ဝန်ဆောင်မှုနှုန်းထားများအတိုင်း ပေးချေရန် သဘောတူညီပါသည်။
+• စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၃၀၀,၀၀၀ ကျပ် (300,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။
+• လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၈၀,၀၀၀ ကျပ် (80,000 MMK) - လစဉ်ပေးချေရန်။
+• <b>အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၃၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။</b>
+• လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။
+
+
+
+
+
+<strong>၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)</strong>
+• ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို တိုက်ရိုက်ကြည့်ရှုခြင်း၊ ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။
+• ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် 
+ (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။
+• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
+• ဒေတာဖျက်သိမ်းမှု: (၁) နှစ်ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အနေဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။
+
+<strong>၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)</strong>
+• စနစ်ပိတ်သိမ်းခြင်း: လစဉ်ကြေး (Subscription Fee) ပေးဆောင်ရန် ပျက်ကွက်ပါက သတ်မှတ်ရက် ကျော်လွန်သည်နှင့် စနစ်မှ အလိုအလျောက် အသုံးပြုခွင့်ကို ခေတ္တပိတ်သိမ်း (Freeze) မည်ဖြစ်သည်။
+• အကောင့်ဖျက်သိမ်းခြင်း: အကောင့်ပိတ်သိမ်းပြီးနောက် (၃၀) ရက်အတွင်း ဆက်လက် ပေးဆောင်ခြင်း မရှိပါက အသုံးပြုသူ၏ အကောင့်နှင့်တကွ ဒေတာများအားလုံးကို စနစ်မှ အပြီးတိုင် ဖျက်သိမ်း (Permanently Delete) သွားမည်ဖြစ်သည်။
+
+<strong>၆။ တာဝန်ယူမှုနှင့် ပံ့ပိုးမှု (Liability & Support)</strong>
+• ဝန်ဆောင်မှုရရှိနိုင်မှု: ကုမ္ပဏီအနေဖြင့် ၁၀၀% Server Uptime ရရှိရန် အစွမ်းကုန် ကြိုးပမ်းသွားမည် ဖြစ်သည်။ သို့ရာတွင် မထိန်းချုပ်နိုင်သော အခြေအနေများ (Force Majeure) ကြောင့် ဖြစ်ပေါ်လာနိုင်သော ဝန်ဆောင်မှု အနှောင့်အယှက်များအတွက် အာမခံချက် ပေးနိုင်မည်မဟုတ်ပါ။
+• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
+• AI တာဝန်ယူမှု: AI Assistant မှ ထွက်ပေါ်လာသော အစီရင်ခံစာများအပေါ် အခြေခံ၍ အသုံးပြုသူ၏ လုပ်ငန်းဆိုင်ရာ ဆုံးဖြတ်ချက်များ ချမှတ်ရာတွင် ဖြစ်ပေါ်လာနိုင်သော အကျိုးအမြတ် သို့မဟုတ် ဆုံးရှုံးမှုများအတွက် ကုမ္ပဏီမှ တာဝန်ယူမည် မဟုတ်ပါ။
+
+<strong>၇။ မူဝါဒများ ပြင်ဆင်ခြင်း (Policy Updates)</strong>
+ကုမ္ပဏီအနေဖြင့် အနာဂတ်တွင် ဖြစ်ပေါ်လာနိုင်သော အခြေအနေများအပေါ် မူတည်၍ ဤမူဝါဒများကို လိုအပ်သလို ပြင်ဆင်မွမ်းမံမှုများ ပြုလုပ်နိုင်ပါသည်။ သို့ရာတွင် မည်သည့်ပြင်ဆင်မှုကိုမဆို အသုံးပြုသူများထံ ကြိုတင်အကြောင်းကြားပေးသွားမည် ဖြစ်သည်။
+
+<strong>Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)</strong>
 အောက်ပါအချက်အလက်များကို ဖြည့်စွက်ခြင်းဖြင့် ဤစာချုပ်ပါ စည်းကမ်းချက်များကို ဖတ်ရှုနားလည်ပြီး သဘောတူညီကြောင်း အတည်ပြုပါသည်။`;
 
 const generatePDF = async (formData, signature, contractId) => {
@@ -67,6 +109,10 @@ const generatePDF = async (formData, signature, contractId) => {
     `;
 
     tempDiv.innerHTML = `
+      <style>
+        strong { font-size: 16px; display: inline-block; margin-top: 5px; }
+        b { font-weight: bold; }
+      </style>
       <div style="text-align: center; margin-bottom: 30px; font-family: Arial, sans-serif;">
         <img src="${logoImage}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #2216a8; margin-bottom: 15px;" />
         <h1 style="font-size: 28px; margin: 0; font-weight: bold; color: #2216a8;">OTAS Tech Solutions Co., Ltd.</h1>
@@ -76,10 +122,10 @@ const generatePDF = async (formData, signature, contractId) => {
       
       <div style="margin-bottom: 30px;">
         <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px; font-family: Arial, sans-serif;">SERVICE AGREEMENT</h3>
-        <div style="font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif; white-space: pre-wrap; font-size: 14px; line-height: 1.8;">${CONTRACT_TEXT}</div>
+        <div style="font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif; white-space: pre-wrap; font-size: 14px; line-height: 1.8;">${PDF_TEXT}</div>
       </div>
       
-      <div style="margin-bottom: 100px; font-family: Arial, sans-serif;">
+      <div style="margin-top: 200px; margin-bottom: 30px; font-family: Arial, sans-serif;">
         <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">SIGNATORY INFORMATION</h3>
         <div style="font-size: 15px; line-height: 1.8;">
           <p><strong>Full Name:</strong> ${formData.fullName}</p>
@@ -104,7 +150,7 @@ const generatePDF = async (formData, signature, contractId) => {
       </div>
       
       <div style="border-top: 2px solid #2216a8; padding-top: 20px; margin-top: 30px; font-family: Arial, sans-serif;">
-        <p style="font-size: 12px; color: #666; margin: 5px 0;">AutoShop Myanmar Co., Ltd.</p>
+        <p style="font-size: 12px; color: #666; margin: 5px 0;">OTAS Tech Solutions Co., Ltd.</p>
         <p style="font-size: 12px; color: #666; margin: 5px 0;">Contact: info@autoshopmm.com</p>
       </div>
     `;
@@ -282,7 +328,10 @@ export default function ContractForm() {
       <div className="contract-content">
         <div className="contract-text-section">
           <h2 className="section-title">Service Agreement</h2>
-          <pre className="contract-text">{CONTRACT_TEXT}</pre>
+          <div
+            className="contract-text"
+            dangerouslySetInnerHTML={{ __html: CONTRACT_TEXT }}
+          />
         </div>
 
         <form className="contract-form" onSubmit={handleSubmit}>

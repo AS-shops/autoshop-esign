@@ -80,6 +80,16 @@
   margin: 0;
 }
 
+.contract-text strong {
+  font-size: 17px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.contract-text b {
+  font-weight: bold;
+}
+
 .contract-form {
   background: white;
   border: 2px solid #e9ecef;
