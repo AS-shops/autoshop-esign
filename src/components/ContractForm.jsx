@@ -2,6 +2,7 @@ import { useState, useRef, useMemo } from "react";
 import SignatureCanvas from "react-signature-canvas";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
+import Modal from "./Modal";
 import "./ContractForm.css";
 import logoImage from "../assets/autoshop.jpg";
 
@@ -263,7 +264,7 @@ export default function ContractForm() {
   };
 
   return (
-    <div className="contract-container">
+    <div className="contract-container bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
       <header className="contract-header">
         <div className="company-logo">
           <img
@@ -376,9 +377,19 @@ export default function ContractForm() {
                 ref={signatureRef}
                 canvasProps={{
                   className: "signature-canvas",
+                  touchAction: "none",
                 }}
                 penColor="#1a1a1a"
                 onEnd={handleSignatureEnd}
+                onBegin={() => {
+                  // Prevent mobile keyboard and cursor issues
+                  if (signatureRef.current) {
+                    const canvas = signatureRef.current.canvas;
+                    canvas.style.touchAction = "none";
+                    canvas.style.pointerEvents = "auto";
+                    canvas.focus();
+                  }
+                }}
               />
             </div>
             <button
@@ -390,19 +401,19 @@ export default function ContractForm() {
             </button>
           </div>
 
-          <div className="form-group checkbox-group">
-            <label className="checkbox-label">
+          <div className="form-group checkbox-group flex items-center ">
+            <div className="checkbox-label">
               <input
                 type="checkbox"
                 checked={agreed}
                 onChange={(e) => setAgreed(e.target.checked)}
               />
-              <span className="checkmark"></span>
-              <span className="agreement-text">
+
+              <p className="agreement-text">
                 ဤဝန်ဆောင်မှုသဘောတူညီချက် (Terms and Conditions) အားလုံးကို
                 ဖတ်ရှုပြီး သဘောတူညီပါသည်။
-              </span>
-            </label>
+              </p>
+            </div>
           </div>
 
           {submitStatus && (
@@ -415,7 +426,7 @@ export default function ContractForm() {
 
           <button
             type="submit"
-            className="submit-btn"
+            className="submit-btn transform transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg"
             disabled={!isFormValid || isSubmitting}
           >
             {isSubmitting ? (
@@ -437,9 +448,45 @@ export default function ContractForm() {
         </form>
       </div>
 
+      <Modal isOpen={isSubmitting || !!submitStatus}>
+        {isSubmitting && !submitStatus && (
+          <>
+            <div className="loading-spinner"></div>
+            <h2 className="modal-title">Submitting Agreement...</h2>
+            <p className="modal-message">Please wait, generating PDF.</p>
+          </>
+        )}
+        {submitStatus && (
+          <>
+            <div className="modal-icon">{submitStatus.success ? "✓" : "✗"}</div>
+            <h2 className="modal-title">
+              {submitStatus.success
+                ? "Contract Signed Successfully!"
+                : "Submission Failed"}
+            </h2>
+            <p className="modal-subtitle">
+              {submitStatus.success
+                ? "သဘောတူညီမှု တင်ပြပြီးပါပြီ။"
+                : "Error occurred"}
+            </p>
+            <p className="modal-message">
+              {submitStatus.success
+                ? "PDF will be downloaded to your device."
+                : submitStatus.message}
+            </p>
+            <button
+              onClick={() => setSubmitStatus(null)}
+              className="modal-button"
+            >
+              Close
+            </button>
+          </>
+        )}
+      </Modal>
+
       <footer className="contract-footer">
         <p>
-          OTAS Tech Solutions Co., Ltd. | Contact: info@otastech.com | Version
+          OTAS Tech Solutions Co., Ltd. | Contact: info@autoshopmm.com | Version
           1.0
         </p>
       </footer>

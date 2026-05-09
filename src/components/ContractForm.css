@@ -149,6 +149,14 @@
   width: 100%;
   height: 150px;
   display: block;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: crosshair;
 }
 
 .clear-btn {
@@ -177,11 +185,10 @@
 
 .checkbox-label {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
   cursor: pointer;
   font-size: 15px;
-  line-height: 1.5;
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -194,6 +201,7 @@
 
 .agreement-text {
   color: #333;
+  padding-left: 10px;
   font-family: "Myanmar Text", "Padauk", sans-serif;
 }
 
@@ -298,5 +306,21 @@
 
   .form-title {
     font-size: 18px;
+  }
+
+  .signature-canvas-wrapper {
+    position: relative;
+    z-index: 10;
+  }
+
+  .signature-canvas {
+    height: 200px;
+    touch-action: none !important;
+    pointer-events: auto !important;
+  }
+
+  .signature-group {
+    position: relative;
+    overflow: visible;
   }
 }
