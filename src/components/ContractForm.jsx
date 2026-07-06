@@ -12,7 +12,7 @@ const CONTRACT_TEXT = `<strong>Auto Shop Software Service Agreement
 ဤဝန်ဆောင်မှုသဘောတူညီချက်စာချုပ်ကို OTAS Tech Solutions Co., Ltd. (နောင်တွင် "ကုမ္ပဏီ" ဟု ခေါ်ဆိုမည်) နှင့် ဝန်ဆောင်မှုရယူသူ ဝယ်ယူသူ (နောင်တွင် "အသုံးပြုသူ" ဟု ခေါ်ဆိုမည်) တို့အကြား အောက်ပါအချက်အလက်များအတိုင်း သဘောတူညီကြပါသည်။
 
 <strong>၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)</strong>
-Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။ ဤ Software တွင် AI Assistant Manager ပါဝင်ပြီး အသုံးပြုသူသည် အရောင်းအစီရင်ခံစာ (Sales Reports) များကို Text Message ပေးပို့၍ အလွယ်တကူ မေးမြန်းစစ်ဆေးနိုင်မည် ဖြစ်ပါသည်။
+Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။
 
 <strong>၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)</strong>
 အသုံးပြုသူသည် Software ကို အသုံးပြုရာတွင် မိမိပိုင်ဆိုင်သော ဆိုင်ခွဲအရေအတွက် (Number of Shops) နှင့် အသုံးပြုသူအကောင့် (User Accounts) အရေအတွက် ကန့်သတ်ချက်မရှိဘဲ လွတ်လပ်စွာ အသုံးပြုနိုင်ခွင့်ရှိသည်။
