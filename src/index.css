@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Noto Sans Myanmar";
+  src: url("./fonts/NotoSansMyanmar-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;

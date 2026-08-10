@@ -19,6 +19,7 @@ Auto Shop Software သည် OTAS Tech Solutions Co.,Ltd မှ တီထွင�
 
 <strong>၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)</strong>
 အသုံးပြုသူသည် အောက်ဖော်ပြပါ ဝန်ဆောင်မှုနှုန်းထားများအတိုင်း ပေးချေရန် သဘောတူညီပါသည်။
+
 For Commercial Package
 • စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၃၀၀,၀၀၀ ကျပ် (300,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။ 
 • လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၈၀,၀၀၀ ကျပ် (80,000 MMK) - လစဉ်ပေးချေရန်။ 
@@ -32,9 +33,9 @@ For Enterprise Package
 • လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။
 
 <strong>၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)</strong>
-• ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို  ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။ 
+• ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို  ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။ 
 • ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။ 
-• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။ 
+• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။ 
 • ဒေတာဖျက်သိမ်းမှု: (၁) နှစ်ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အနေဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။
 
 <strong>၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)</strong>
@@ -52,155 +53,193 @@ For Enterprise Package
 <strong>Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)</strong>
 အောက်ပါအချက်အလက်များကို ဖြည့်စွက်ခြင်းဖြင့် ဤစာချုပ်ပါ စည်းကမ်းချက်များကို ဖတ်ရှုနားလည်ပြီး သဘောတူညီကြောင်း အတည်ပြုပါသည်။`;
 
-const PDF_TEXT = `<strong>Auto Shop Software Service Agreement
-(ဝန်ဆောင်မှု သဘောတူညီချက် စာချုပ်)</strong>
-
-ဤဝန်ဆောင်မှုသဘောတူညီချက်စာချုပ်ကို OTAS Tech Solutions Co., Ltd. (နောင်တွင် "ကုမ္ပဏီ" ဟု ခေါ်ဆိုမည်) နှင့် ဝန်ဆောင်မှုရယူသူ ဝယ်ယူသူ (နောင်တွင် "အသုံးပြုသူ" ဟု ခေါ်ဆိုမည်) တို့အကြား အောက်ပါအချက်အလက်များအတိုင်း သဘောတူညီကြပါသည်။
-
-<strong>၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)</strong>
-Auto Shop Software သည် OTAS Tech Solutions မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။ ဤ Software တွင် AI Assistant Manager ပါဝင်ပြီး အသုံးပြုသူသည် အရောင်းအစီရင်ခံစာ (Sales Reports) များကို Text Message ပေးပို့၍ အလွယ်တကူ မေးမြန်းစစ်ဆေးနိုင်မည် ဖြစ်ပါသည်။
-
-<strong>၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)</strong>
-အသုံးပြုသူသည် Software ကို အသုံးပြုရာတွင် မိမိပိုင်ဆိုင်သော ဆိုင်ခွဲအရေအတွက် (Number of Shops) နှင့် အသုံးပြုသူအကောင့် (User Accounts) အရေအတွက် ကန့်သတ်ချက်မရှိဘဲ လွတ်လပ်စွာ အသုံးပြုနိုင်ခွင့်ရှိသည်။
-
-<strong>၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)</strong>
-အသုံးပြုသူသည် အောက်ဖော်ပြပါ ဝန်ဆောင်မှုနှုန်းထားများအတိုင်း ပေးချေရန် သဘောတူညီပါသည်။
-• စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၃၀၀,၀၀၀ ကျပ် (300,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။
-• လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၈၀,၀၀၀ ကျပ် (80,000 MMK) - လစဉ်ပေးချေရန်။
-• <b>အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၃၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။</b>
-• လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။
-
-
-
-
-
-<strong>၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)</strong>
-• ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို တိုက်ရိုက်ကြည့်ရှုခြင်း၊ ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။
-• ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် 
- (Transaction Records) နှင့် Activity Logs များကို (၁) နှစ်အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။
-• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
-• ဒေတာဖျက်သိမ်းမှု: (၁) နှစ်ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အနေဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။
-
-<strong>၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)</strong>
-• စနစ်ပိတ်သိမ်းခြင်း: လစဉ်ကြေး (Subscription Fee) ပေးဆောင်ရန် ပျက်ကွက်ပါက သတ်မှတ်ရက် ကျော်လွန်သည်နှင့် စနစ်မှ အလိုအလျောက် အသုံးပြုခွင့်ကို ခေတ္တပိတ်သိမ်း (Freeze) မည်ဖြစ်သည်။
-• အကောင့်ဖျက်သိမ်းခြင်း: အကောင့်ပိတ်သိမ်းပြီးနောက် (၃၀) ရက်အတွင်း ဆက်လက် ပေးဆောင်ခြင်း မရှိပါက အသုံးပြုသူ၏ အကောင့်နှင့်တကွ ဒေတာများအားလုံးကို စနစ်မှ အပြီးတိုင် ဖျက်သိမ်း (Permanently Delete) သွားမည်ဖြစ်သည်။
-
-<strong>၆။ တာဝန်ယူမှုနှင့် ပံ့ပိုးမှု (Liability & Support)</strong>
-• ဝန်ဆောင်မှုရရှိနိုင်မှု: ကုမ္ပဏီအနေဖြင့် ၁၀၀% Server Uptime ရရှိရန် အစွမ်းကုန် ကြိုးပမ်းသွားမည် ဖြစ်သည်။ သို့ရာတွင် မထိန်းချုပ်နိုင်သော အခြေအနေများ (Force Majeure) ကြောင့် ဖြစ်ပေါ်လာနိုင်သော ဝန်ဆောင်မှု အနှောင့်အယှက်များအတွက် အာမခံချက် ပေးနိုင်မည်မဟုတ်ပါ။
-• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။
-• AI တာဝန်ယူမှု: AI Assistant မှ ထွက်ပေါ်လာသော အစီရင်ခံစာများအပေါ် အခြေခံ၍ အသုံးပြုသူ၏ လုပ်ငန်းဆိုင်ရာ ဆုံးဖြတ်ချက်များ ချမှတ်ရာတွင် ဖြစ်ပေါ်လာနိုင်သော အကျိုးအမြတ် သို့မဟုတ် ဆုံးရှုံးမှုများအတွက် ကုမ္ပဏီမှ တာဝန်ယူမည် မဟုတ်ပါ။
-
-<strong>၇။ မူဝါဒများ ပြင်ဆင်ခြင်း (Policy Updates)</strong>
-ကုမ္ပဏီအနေဖြင့် အနာဂတ်တွင် ဖြစ်ပေါ်လာနိုင်သော အခြေအနေများအပေါ် မူတည်၍ ဤမူဝါဒများကို လိုအပ်သလို ပြင်ဆင်မွမ်းမံမှုများ ပြုလုပ်နိုင်ပါသည်။ သို့ရာတွင် မည်သည့်ပြင်ဆင်မှုကိုမဆို အသုံးပြုသူများထံ ကြိုတင်အကြောင်းကြားပေးသွားမည် ဖြစ်သည်။
-
-<strong>Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)</strong>
-အောက်ပါအချက်အလက်များကို ဖြည့်စွက်ခြင်းဖြင့် ဤစာချုပ်ပါ စည်းကမ်းချက်များကို ဖတ်ရှုနားလည်ပြီး သဘောတူညီကြောင်း အတည်ပြုပါသည်။`;
-
 const generatePDF = async (formData, signature, contractId) => {
   try {
-    // Create a temporary div with proper styling
-    const tempDiv = document.createElement("div");
-    tempDiv.style.cssText = `
+    const tempContainer = document.createElement("div");
+    tempContainer.style.cssText = `
       position: absolute;
       left: -9999px;
       top: -9999px;
       width: 800px;
-      padding: 40px;
-      font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif;
-      font-size: 14px;
-      line-height: 1.8;
-      background: white;
-      color: black;
-      border: 1px solid #ddd;
     `;
 
-    tempDiv.innerHTML = `
+    const commonHeader = `
+      <div style="text-align: center; margin-bottom: 20px; font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center;">
+        <img src="${logoImage}" style="width: 75px; height: 75px; border-radius: 50%; object-fit: cover; border: 2px solid #2216a8; margin-bottom: 10px;" />
+        <h1 style="font-size: 26px; margin: 0; font-weight: bold; color: #2216a8; line-height: 1.2;">OTAS Tech Solutions Co., Ltd.</h1>
+        <h2 style="font-size: 19px; margin: 6px 0; font-weight: normal; color: #444; line-height: 1.2;">Auto Shop Software Service Agreement</h2>
+        <p style="font-size: 14px; color: #666; margin: 4px 0;">Contract ID: ${contractId} | Date: ${new Date().toLocaleDateString("en-US")}</p>
+        <div style="width: 100%; border-bottom: 2px solid #2216a8; margin-top: 12px; margin-bottom: 15px;"></div>
+      </div>
+    `;
+
+    const commonStyles = `
       <style>
-        strong { font-size: 16px; display: inline-block; margin-top: 5px; }
+        strong { font-size: 15px; display: inline-block; margin-top: 8px; margin-bottom: 4px; color: #111; }
         b { font-weight: bold; }
+        p { margin: 4px 0; }
+        .page-content {
+          font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif;
+          font-size: 13.5px;
+          line-height: 1.6;
+          color: #333;
+        }
       </style>
-      <div style="text-align: center; margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <img src="${logoImage}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #2216a8; margin-bottom: 15px;" />
-        <h1 style="font-size: 28px; margin: 0; font-weight: bold; color: #2216a8;">OTAS Tech Solutions Co., Ltd.</h1>
-        <h2 style="font-size: 22px; margin: 10px 0; font-weight: normal; color: #444;">Auto Shop Software Service Agreement</h2>
-        <p style="font-size: 16px; color: #666; margin: 5px 0;">Contract ID: ${contractId} | Date: ${new Date().toLocaleDateString("my-MM")}</p>
+    `;
+
+    const page1Div = document.createElement("div");
+    page1Div.style.cssText = `
+      width: 800px;
+      height: 1120px;
+      padding: 40px 45px;
+      background: white;
+      box-sizing: border-box;
+      position: relative;
+    `;
+    page1Div.innerHTML = `
+      ${commonStyles}
+      ${commonHeader}
+      <div class="page-content">
+        <strong>Auto Shop Software Service Agreement (ဝန်ဆောင်မှု သဘောတူညီချက် စာချုပ်)</strong>
+        <p>ဤဝန်ဆောင်မှုသဘောတူညီချက်စာချုပ်ကို OTAS Tech Solutions Co., Ltd. (နောင်တွင် "ကုမ္ပဏီ" ဟု ခေါ်ဆိုမည်) နှင့် ဝန်ဆောင်မှုရယူသူ ဝယ်ယူသူ (နောင်တွင် "အသုံးပြုသူ" ဟု ခေါ်ဆိုမည်) တို့အကြား အောက်ပါအချက်အလက်များအတိုင်း သဘောတူညီကြပါသည်။</p>
+        
+        <strong>၁။ ဝန်ဆောင်မှုအဓိပ္ပာယ်ဖွင့်ဆိုချက် (Service Scope)</strong>
+        <p>Auto Shop Software သည် OTAS Tech Solutions Co., Ltd မှ တီထွင်ထားသော Cloud-based POS (Point of Sale) နှင့် Management Software အမျိုးအစားဖြစ်ပါသည်။ ဤ Software တွင် AI Assistant Manager ပါဝင်ပြီး အသုံးပြုသူသည် အရောင်းအစီရင်ခံစာ (Sales Reports) များကို Text Message ပေးပို့၍ အလွယ်တကူ မေးမြန်းစစ်ဆေးနိုင်မည် ဖြစ်ပါသည်။</p>
+        
+        <strong>၂။ အသုံးပြုခွင့်နှင့် လိုင်စင်သတ်မှတ်ချက် (User & License Terms)</strong>
+        <p>အသုံးပြုသူသည် Software ကို အသုံးပြုရာတွင် မိမိပိုင်ဆိုင်သော ဆိုင်ခွဲအရေအတွက် (Number of Shops) နှင့် အသုံးပြုသူအကောင့် (User Accounts) အရေအတွက် ကန့်သတ်ချက်မရှိဘဲ လွတ်လပ်စွာ အသုံးပြုနိုင်ခွင့်ရှိသည်။</p>
+        
+        <strong>၃။ ဝန်ဆောင်မှုကြေးနှင့် ငွေပေးချေမှု (Subscription & Fees)</strong>
+        <p>အသုံးပြုသူသည် အောက်ဖော်ပြပါ ဝန်ဆောင်မှုနှုန်းထားများအတိုင်း ပေးချေရန် သဘောတူညီပါသည်။</p>
+        
+        <p><b>For Commercial Package</b></p>
+        <p>• စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၃၀၀,၀၀၀ ကျပ် (300,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။</p>
+        <p>• လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၈၀,၀၀၀ ကျပ် (80,000 MMK) - လစဉ်ပေးချေရန်။</p>
+        <p>• အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၁) နှစ်စာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၃၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။ အသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၁၅၀,၀၀၀) ကျပ်သာ ပေးချေရမည် ဖြစ်သည်။</p>
+        <p>• လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။</p>
       </div>
-      
-      <div style="margin-bottom: 30px;">
-        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px; font-family: Arial, sans-serif;">SERVICE AGREEMENT</h3>
-        <div style="font-family: 'Noto Sans Myanmar', 'Pyidaungsu', sans-serif; white-space: pre-wrap; font-size: 14px; line-height: 1.8;">${PDF_TEXT}</div>
+      <div style="position: absolute; bottom: 30px; left: 45px; right: 45px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 11px; color: #666; display: flex; justify-content: space-between; font-family: Arial, sans-serif;">
+        <span>OTAS Tech Solutions Co., Ltd.</span>
+        <span>Page 1 of 3</span>
       </div>
-      
-      <div style="margin-top: 200px; margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 15px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">SIGNATORY INFORMATION</h3>
-        <div style="font-size: 15px; line-height: 1.8;">
-          <p><strong>Full Name:</strong> ${formData.fullName}</p>
-          <p><strong>Phone Number:</strong> ${formData.phoneNumber}</p>
-          <p><strong>Position:</strong> ${formData.position}</p>
-          <p><strong>Business Name:</strong> ${formData.businessName}</p>
-          <p><strong>Subscription Plan:</strong> ${formData.plan.charAt(0).toUpperCase() + formData.plan.slice(1)}</p>
-          <p><strong>Start Date:</strong> ${formData.startDate}</p>
+    `;
+
+    const page2Div = document.createElement("div");
+    page2Div.style.cssText = `
+      width: 800px;
+      height: 1120px;
+      padding: 40px 45px;
+      background: white;
+      box-sizing: border-box;
+      position: relative;
+    `;
+    page2Div.innerHTML = `
+      ${commonStyles}
+      ${commonHeader}
+      <div class="page-content">
+        <p><b>For Enterprise Package</b></p>
+        <p>• စတင်တပ်ဆင်ခ (Setup and Installation Fee): ၅၀၀,၀၀၀ ကျပ် (500,000 MMK) - တစ်ကြိမ်တည်း ပေးချေရန်။</p>
+        <p>• လစဉ်အသုံးပြုခ (Monthly Subscription Fee): ၁၄၀,၀၀၀ ကျပ် (140,000 MMK) - လစဉ်ပေးချေရန်။</p>
+        <p>• အထူးခံစားခွင့် (Waiver Policy): အသုံးပြုသူမှ ဝန်ဆောင်မှုအသုံးပြုခကို (၁) နှစ်စာ တစ်ပြိုင်နက်တည်း ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၅၀၀,၀၀၀ ကျပ်) ကို ပေးဆောင်ရန် မလိုဘဲ အခမဲ့ (Free) ခံစားခွင့်ရရှိမည် ဖြစ်သည်။ အသုံးပြုသူမှ ဝန်ဆောင်မှု အသုံးပြုခကို (၆) လစာ တစ်ပြိုင်နက်ထဲ ကြိုတင်ပေးချေပါက စတင်တပ်ဆင်ခ (၂၅၀,၀၀၀) ကျပ်သာ ပေးချေရမည် ဖြစ်သည်။</p>
+        <p>• လစဉ် (Month-by-month) အစီအစဉ်ဖြင့် အသုံးပြုသူများသည် Setup and Installation Fee ကို အပြည့်အဝ ပေးဆောင်ရမည်။</p>
+        
+        <strong>၄။ ဒေတာပိုင်ဆိုင်မှုနှင့် ထိန်းသိမ်းခြင်း (Data Ownership & Storage)</strong>
+        <p>• ပိုင်ဆိုင်မှု: Software အတွင်းရှိ Customers List, Inventory Data နှင့် အရောင်းအဝယ်မှတ်တမ်းများ အားလုံးသည် အသုံးပြုသူ (User) ၏ တရားဝင် ပိုင်ဆိုင်မှုသာ ဖြစ်သည်။ ကုမ္ပဏီမှ အဆိုပါ ဒေတာများကို တိုက်ရိုက်ကြည့်ရှုခြင်း၊ ရယူခြင်းနှင့် အခြားတစ်ပါးသူထံ လွှဲပြောင်းခြင်း လုံးဝပြုလုပ်မည်မဟုတ်ပါ။</p>
+        <p>• ဒေတာသိမ်းဆည်းမှု: Software ၏ မြန်ဆန်မှုနှင့် အသုံးပြုသူ၏ Experience ကောင်းမွန်စေရန်အတွက် (Transaction Records) နှင့် Activity Logs များကို (၁) 年အထိသာ Server ပေါ်တွင် သိမ်းဆည်းပေးမည် ဖြစ်သည်။</p>
+        <p>• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။</p>
+        <p>• ဒေတာဖျက်သိမ်းမှု: (၁) 年ပြည့်၍ ဒေတာများ မဖျက်မီ ကုမ္ပဏီမှ အသုံးပြုသူထံ ကြိုတင် အကြောင်းကြားမည် ဖြစ်သည်။ အသုံးပြုသူအနေဖြင့် မိမိ၏ ဒေတာဟောင်းများကို Backup အنهဖြင့် Download ရယူထားရန် တာဝန်ရှိသည်။</p>
+      </div>
+      <div style="position: absolute; bottom: 30px; left: 45px; right: 45px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 11px; color: #666; display: flex; justify-content: space-between; font-family: Arial, sans-serif;">
+        <span>OTAS Tech Solutions Co., Ltd.</span>
+        <span>Page 2 of 3</span>
+      </div>
+    `;
+
+    const page3Div = document.createElement("div");
+    page3Div.style.cssText = `
+      width: 800px;
+      height: 1120px;
+      padding: 40px 45px;
+      background: white;
+      box-sizing: border-box;
+      position: relative;
+    `;
+    page3Div.innerHTML = `
+      ${commonStyles}
+      ${commonHeader}
+      <div class="page-content">
+        <strong>၅။ ဝန်ဆောင်မှု ရပ်ဆိုင်းခြင်း (Suspension & Termination)</strong>
+        <p>• စနစ်ပိတ်သိမ်းခြင်း: လစဉ်ကြေး (Subscription Fee) ပေးဆောင်ရန် ပျက်ကွက်ပါက သတ်မှတ်ရက် ကျော်လွန်သည်နှင့် စနစ်မှ အလိုအလျောက် အသုံးပြုခွင့်ကို ခေတ္တပိတ်သိမ်း (Freeze) မည်ဖြစ်သည်။</p>
+        <p>• အကောင့်ဖျက်သိမ်းခြင်း: အကောင့်ပိတ်သိမ်းပြီးနောက် (၃၀) ရက်အတွင်း ဆက်လက် ပေးဆောင်ခြင်း မရှိပါက အသုံးပြုသူ၏ အကောင့်နှင့်တကွ ဒေတာများအားလုံးကို စနစ်မှ အပြီးတိုင် ဖျက်သိမ်း (Permanently Delete) သွားမည်ဖြစ်သည်။</p>
+        
+        <strong>၆။ တာဝန်ယူမှုနှင့် ပံ့ပိုးမှု (Liability & Support)</strong>
+        <p>• ဝန်ဆောင်မှုရရှိနိုင်မှု: ကုမ္ပဏီအနေဖြင့် ၁၀၀% Server Uptime ရရှိရန် အစွမ်းကုန် ကြိုးပမ်းသွားမည် ဖြစ်သည်။ သို့ရာတွင် မထိန်းချုပ်နိုင်သော အခြေအနေများ (Force Majeure) ကြောင့် ဖြစ်ပေါ်လာနိုင်သော ဝန်ဆောင်မှု အနှောင့်အယှက်များအတွက် အာမခံချက် ပေးနိုင်မည်မဟုတ်ပါ။</p>
+        <p>• ဒေတာကာကွယ်မှု: မမျှော်မှန်းနိုင်သည့် အခြေအနေများတွင် ဒေတာများ ဆုံးရှုံးမှုမရှိစေရန် အကောင်းဆုံး Data Backup Support ကို ကုမ္ပဏီမှ ပံ့ပိုးပေးပါမည်။</p>
+        <p>• AI တာဝန်ယူမှု: AI Assistant မှ ထွက်ပေါ်လာသော အစီရင်ခံစာများအပေါ် အခြေခံ၍ အသုံးပြုသူ၏ လုပ်ငန်းဆိုင်ရာ ဆုံးဖြတ်ချက်များ ချမှတ်ရာတွင် ဖြစ်ပေါ်လာနိုင်သော အကျိုးအမြတ် သို့မဟုတ် ဆုံးရှုံးမှုများအတွက် ကုမ္ပဏီမှ တာဝန်ယူမည် မဟုတ်ပါ။</p>
+        
+        <strong>၇။ မူဝါဒများ ပြင်ဆင်ခြင်း (Policy Updates)</strong>
+        <p>ကုမ္ပဏီအနေဖြင့် အနာဂတ်တွင် ဖြစ်ပေါ်လာနိုင်သော အခြေအနေများအပေါ် မူတည်၍ ဤမူဝါဒများကို လိုအပ်သလို ပြင်ဆင်မွမ်းမံမှုများ ပြုလုပ်နိုင်ပါသည်။ သို့ရာတွင် မည်သည့်ပြင်ဆင်မှုကိုမဆို အသုံးပြုသူများထံ ကြိုတင်အကြောင်းကြားပေးသွားမည် ဖြစ်သည်။</p>
+        
+        <strong>Acceptance of Agreement (သဘောတူညီချက်ကို လက်ခံခြင်း)</strong>
+        <p>အောက်ပါအချက်အလက်များကို ဖြည့်စွက်ခြင်းဖြင့် ဤစာချုပ်ပါ စည်းကမ်းချက်များကို ဖတ်ရှုနားလည်ပြီး သဘောတူညီကြောင်း အတည်ပြုပါသည်။</p>
+        
+        <div style="margin-top: 15px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-family: Arial, sans-serif; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 10px 20px; align-items: center;">
+          <div><p style="margin: 0;"><strong>Full Name:</strong> ${formData.fullName}</p></div>
+          <div><p style="margin: 0;"><strong>Subscription Plan:</strong> ${formData.plan.charAt(0).toUpperCase() + formData.plan.slice(1)}</p></div>
+          
+          <div><p style="margin: 0;"><strong>Phone Number:</strong> ${formData.phoneNumber}</p></div>
+          <div><p style="margin: 0;"><strong>Duration:</strong> ${formData.duration} Month(s)</p></div>
+          
+          <div><p style="margin: 0;"><strong>Position:</strong> ${formData.position}</p></div>
+          <div><p style="margin: 0;"><strong>Start Date:</strong> ${formData.startDate}</p></div>
+          
+          <div><p style="margin: 0;"><strong>Business Name:</strong> ${formData.businessName}</p></div>
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-weight: bold; color: #111; font-size: 13.5px; white-space: nowrap;">Digital Signature:</span>
+            ${signature ? `<img src="${signature}" style="height: 70px; max-width: 150px; object-fit: contain; background: #ffffff;" />` : "<span style='color:#999; font-size: 13.5px;'>[Signature on file]</span>"}
+          </div>
         </div>
       </div>
-
-
-      
-      <div style="margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">DIGITAL SIGNATURE:</h3>
-        ${signature ? `<img src="${signature}" style="max-width: 200px; height: auto; border: 1px solid #ddd; margin-top: 10px;" />` : "<p>[Signature on file]</p>"}
-      </div>
-      
-      <div style="margin-bottom: 30px; font-family: Arial, sans-serif;">
-        <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 10px; color: #2216a8; border-bottom: 2px solid #2216a8; padding-bottom: 5px;">AGREEMENT STATUS: ACCEPTED</h3>
-        <p style="font-size: 15px;">Terms and Conditions have been accepted by the signatory.</p>
-      </div>
-      
-      <div style="border-top: 2px solid #2216a8; padding-top: 20px; margin-top: 30px; font-family: Arial, sans-serif;">
-        <p style="font-size: 12px; color: #666; margin: 5px 0;">OTAS Tech Solutions Co., Ltd.</p>
-        <p style="font-size: 12px; color: #666; margin: 5px 0;">Contact: info@autoshopmm.com</p>
+      <div style="position: absolute; bottom: 30px; left: 45px; right: 45px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 11px; color: #666; display: flex; justify-content: space-between; font-family: Arial, sans-serif;">
+        <span>OTAS Tech Solutions Co., Ltd.</span>
+        <span>Page 3 of 3</span>
       </div>
     `;
 
-    document.body.appendChild(tempDiv);
+    tempContainer.appendChild(page1Div);
+    tempContainer.appendChild(page2Div);
+    tempContainer.appendChild(page3Div);
+    document.body.appendChild(tempContainer);
 
     // Wait for the content to render
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    // Use html2canvas to capture the content
-    const canvas = await html2canvas(tempDiv, {
-      scale: 2,
-      useCORS: true,
-      allowTaint: true,
-      backgroundColor: "#ffffff",
-      width: 800,
-      height: tempDiv.scrollHeight,
-      scrollX: 0,
-      scrollY: 0,
-    });
-
-    // Create PDF from canvas
-    const imgData = canvas.toDataURL("image/png");
     const pdf = new jsPDF("p", "mm", "a4");
-    const imgWidth = 210; // A4 width in mm
-    const pageHeight = 295; // A4 height in mm
-    const imgHeight = (canvas.height * imgWidth) / canvas.width;
-    let heightLeft = imgHeight;
-    let position = 0;
+    const pages = [page1Div, page2Div, page3Div];
 
-    pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-    heightLeft -= pageHeight;
+    for (let i = 0; i < pages.length; i++) {
+      const canvas = await html2canvas(pages[i], {
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: "#ffffff",
+        width: 800,
+        height: 1120,
+        scrollX: 0,
+        scrollY: 0,
+      });
 
-    while (heightLeft >= 0) {
-      position = heightLeft - imgHeight;
-      pdf.addPage();
-      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-      heightLeft -= pageHeight;
+      const imgData = canvas.toDataURL("image/png");
+      if (i > 0) {
+        pdf.addPage();
+      }
+      pdf.addImage(imgData, "PNG", 0, 0, 210, 297);
     }
 
     pdf.save(
       `Contract_${contractId}_${formData.businessName.replace(/\s+/g, "_")}.pdf`,
     );
-    document.body.removeChild(tempDiv);
+    document.body.removeChild(tempContainer);
   } catch (error) {
     console.error("Error generating PDF:", error);
     alert("PDF generation failed. Please try again or contact support.");
@@ -215,6 +254,7 @@ export default function ContractForm() {
     position: "",
     businessName: "",
     plan: "",
+    duration: "1",
     startDate: "",
   });
   const [agreed, setAgreed] = useState(false);
@@ -231,6 +271,7 @@ export default function ContractForm() {
       formData.position.trim() !== "" &&
       formData.businessName.trim() !== "" &&
       formData.plan.trim() !== "" &&
+      String(formData.duration).trim() !== "" &&
       formData.startDate.trim() !== "" &&
       agreed &&
       !signatureEmpty
@@ -241,6 +282,7 @@ export default function ContractForm() {
     formData.position,
     formData.businessName,
     formData.plan,
+    formData.duration,
     formData.startDate,
     agreed,
     signatureEmpty,
@@ -296,6 +338,7 @@ export default function ContractForm() {
           position: "",
           businessName: "",
           plan: "",
+          duration: "1",
           startDate: "",
         });
         setAgreed(false);
@@ -407,10 +450,26 @@ export default function ContractForm() {
               required
             >
               <option value="">Select a plan</option>
-              <option value="basic">Basic Plan (1 month)</option>
-              <option value="investment">Investment Plan (6 months)</option>
-              <option value="premium">Premium Plan (1 year)</option>
+              <option value="commercial">Commercial Plan</option>
+              <option value="enterprise">Enterprise Plan</option>
             </select>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="duration">
+              Subscription Duration in Months (အသုံးပြုမည့်လအရေအတွက်) *
+            </label>
+            <input
+              type="number"
+              id="duration"
+              name="duration"
+              value={formData.duration}
+              min="1"
+              max="120"
+              onChange={handleInputChange}
+              placeholder="Enter number of months"
+              required
+            />
           </div>
 
           <div className="form-group">
